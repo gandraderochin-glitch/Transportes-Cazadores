@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sensor Tech Solutions</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0b0f14;
+      color: #fff;
+    }
+
+    header {
+      background: #0f1720;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      color: #00d4ff;
+    }
+
+    nav a {
+      margin: 0 15px;
+      color: #ccc;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      color: #00d4ff;
+    }
+
+    .hero {
+      padding: 80px 20px;
+      text-align: center;
+      background: linear-gradient(180deg, #0b0f14, #111827);
+    }
+
+    .hero h2 {
+      font-size: 2.5em;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 25px;
+      background: #00d4ff;
+      color: #000;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    .section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .card {
+      background: #111827;
+      padding: 20px;
+      border-radius: 10px;
+      width: 250px;
+    }
+
+    footer {
+      background: #0f1720;
+      padding: 20px;
+      text-align: center;
+      font-size: 14px;
+      color: #aaa;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Sensor Tech Solutions</h1>
+  <nav>
+    <a href="#">Inicio</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#sectores">Sectores</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Seguridad, Tecnología y Control Inteligente</h2>
+  <p>Protegemos lo que más importa con soluciones avanzadas de videovigilancia, accesos y monitoreo.</p>
+  <a href="#contacto" class="btn">Solicitar Cotización</a>
+</section>
+
+<section id="servicios" class="section">
+  <h2>Servicios</h2>
+  <div class="services">
+
+    <div class="card">
+      <h3>Videovigilancia</h3>
+      <p>Cámaras HD y monitoreo en tiempo real desde cualquier dispositivo.</p>
+    </div>
+
+    <div class="card">
+      <h3>Control de Accesos</h3>
+      <p>Sistemas biométricos, tarjetas RFID y accesos remotos.</p>
+    </div>
+
+    <div class="card">
+      <h3>Integración de Proyectos</h3>
+      <p>Instalación completa en desarrollos residenciales y comerciales.</p>
+    </div>
+
+    <div class="card">
+      <h3>Soporte 24/7</h3>
+      <p>Mantenimiento, soporte técnico y monitoreo continuo.</p>
+    </div>
+
+  </div>
+</section>
+
+<section id="sectores" class="section">
+  <h2>Sectores</h2>
+  <div class="services">
+
+    <div class="card">
+      <h3>Residencial</h3>
+      <p>Protección inteligente para tu hogar.</p>
+    </div>
+
+    <div class="card">
+      <h3>Empresarial</h3>
+      <p>Seguridad integral para negocios.</p>
+    </div>
+
+    <div class="card">
+      <h3>Desarrollos</h3>
+      <p>Control total en accesos y vigilancia.</p>
+    </div>
+
+  </div>
+</section>
+
+<section id="contacto" class="section">
+  <h2>Contacto</h2>
+  <p>Agenda una asesoría y protege tu inversión.</p>
+  <p>📱 Teléfono: 667 XXX XXXX</p>
+  <p>📧 Email: contacto@sensor.com</p>
+</section>
+
+<footer>
+  <p>© 2026 Sensor Tech Solutions - Todos los derechos reservados</p>
+</footer>
+
+</body>
+</html>
